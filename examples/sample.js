@@ -7,7 +7,9 @@ var path = require('path'),
 
 var app = express();
 var viewList = {
-    home: {}
+    home: {
+        title: 'Home Page'
+    }
 };
 
 gwcsshbs.init(

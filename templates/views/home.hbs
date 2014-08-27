@@ -1,21 +1,11 @@
-{{#extend "layout"}}
-
-    {{#append "head"}}
-    <link rel="stylesheet" href="/css/home.css"></link>
-    {{/append}}
-
-    {{#replace "body"}}
+{{#extend "page"}}
+{{#prepend "pageheader"}}
     <h2>Welcome Home</h2>
-
-    <ul>
-        {{#items}}
-        <li>{{.}}</li>
-        {{/items}}
-    </ul>
-    {{/replace}}
-
-    {{#prepend "foot"}}
-    <script src="/js/home.js"></script>
-    {{/prepend}}
-
+{{/prepend}}
+{{#prepend "pagecontent"}}
+    <p>Home is where the Heart is...</p>
+{{/prepend}}
+{{#prepend "pagefooter"}}
+    <small>&copy; 2014</small>
+{{/prepend}}
 {{/extend}}
