@@ -25,7 +25,8 @@
     "GroundworkCSS": "git://github.com/groundworkcss/groundwork.git#1fb1352b626a9a89664fa8e8ff12720aedd8b772",
     "async-waterfall": "v0.1.x",
     "async-foreach": "v0.1.x",
-    "watch": "v0.11.x"
+    "watch": "v0.11.x",
+    "socket.io": "v1.0.x"
   },
   "devDependencies": {
     "express": "v4.6.x"
