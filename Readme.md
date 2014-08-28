@@ -22,17 +22,20 @@ $ npm install gwcsshbs
   * Templating using [handlebars.js](https://github.com/wycats/handlebars.js)
   * Jade-like layout-blocks using [handlebars-layouts](https://github.com/shannonmoeller/handlebars-layouts)
   * Handlebars templates for [GroundworkCSS 2.5.0](https://github.com/groundworkcss/groundwork)
+  * Live UI Design-Preview Prototyping Environment
 
 ## Philosophy
 
-  Reuable handlebars templates for GroundworkCSS responsive web-design.
+  Reuable handlebars templates for and UI design/prototyping environment for
+  GroundworkCSS responsive web-design.
 
 ## APIs
 
 ### Overview
 
   This module provides handlebars-based basic building blocks for creating web-pages using
-  GroundworkCSS responsive web-design. Reuse the layouts via block-helpers:
+  GroundworkCSS responsive web-design. It also provides a live UI design/prototyping environment.
+  Reuse the layouts via block-helpers:
   * \#extend - extend a defined partial
   * \#block - define a block within a partial
   * \#append - append to a defined block

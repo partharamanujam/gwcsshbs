@@ -12,6 +12,7 @@ var viewList = {
     }
 };
 
+gwcsshbs.enableLogging();
 gwcsshbs.init(
     function (err) {
         if(err) {
