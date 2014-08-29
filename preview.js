@@ -4,6 +4,7 @@ var path = require('path'),
     http = require('http'),
     express = require('express'),
     gwcsshbs = require('./lib'),
+    menuData = require('./menuData'),
     gwcssResources = gwcsshbs.resources(express);
 
 var app = express(),
@@ -16,6 +17,7 @@ var viewList = {
         gwcsshbs: {
             autoPageRefresh: true
         },
+        menu: menuData,
         title: 'Home Page'
     }
 };
