@@ -80,7 +80,7 @@ var viewList = {
   Also, you can change the complete structure with a little effort. Below picture provides
   an overview of the templates structure.
 
-  [Templates-Layout](layout.jpg)
+  ![Templates-Layout](layout.jpg)
 
 ### gwcsshbs.init(callback)
 
