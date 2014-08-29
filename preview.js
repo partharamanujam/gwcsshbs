@@ -18,7 +18,7 @@ var viewList = {
             autoPageRefresh: true
         },
         menu: menuData,
-        title: 'Home Page'
+        title: 'Home'
     }
 };
 

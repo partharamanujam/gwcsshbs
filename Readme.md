@@ -73,10 +73,18 @@ var viewList = {
 };
 ```
 
+### Templates structure
+
+  The current template structure is aligned to the sample web-pages provided by GroudworkCSS.
+  However, most of it can be re-used with minor modifications to suit inidividual UX needs.
+  Also, you can change the complete structure with a little effort. Below picture provides
+  an overview of the templates structure.
+
+  [Templates-Layout](layout.jpg)
 
 ### gwcsshbs.init(callback)
 
-  This API initialized the module and sets-up the handlebars templating system. On successful
+  This API initializes the module and sets-up the handlebars templating system. On successful
   initialization, the callback provides an event-emitter useful for handling events from within
   the module (e.g., refresh).
 
