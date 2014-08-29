@@ -48,14 +48,14 @@ $ npm install gwcsshbs
   Run preview.js using Node JS ("node preview.js"), and view the sample web-pages in the browser.
   Each of the view is available as as web-page at /[view] in the browser on port 8080 (for e.g.,
   http://localhost:8080/home). All changes made to the templates are available as "live" preview
-  in the browser; the changes are monitored and the re-compiled automatically, and the view in
-  the browser is refreshed. The live preview is very useful when designing UX for multiple browsers
+  in the browser. The changes are monitored and the re-compiled automatically; also, the view in
+  the browser(s) is refreshed. The live preview is very useful when designing UX for multiple browsers
   (e.g., browser compatibility) and/or multiple form-factors (e.g. mobiles, tablets, and desktops).
   As you build the UX, you can open the web-page in multiple browsers/devices, and monitor & debug
   the changes without the need to refresh the web-pages in the browsers.
 
   Any new views added to the system will need a restart of the node preview.js server. You may
-  consider usinng other solutions like [nodemon](https://github.com/remy/nodemon) in case you want
+  consider using other solutions like [nodemon](https://github.com/remy/nodemon) in case you want
   to restart the node server automatically.
 
   View (static) data is available in viewList[] of preview.js file. Some additional settings are
