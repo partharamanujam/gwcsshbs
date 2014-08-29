@@ -26,7 +26,8 @@ $ npm install gwcsshbs
 ## Philosophy
 
   Reuable handlebars templates for UI design/prototyping with live preview based on
-  GroundworkCSS responsive web-design.
+  GroundworkCSS responsive web-design. The idea is to use the existing templates as
+  the starting point, and then refine them to suit individual UX needs.
 
 ## APIs
 

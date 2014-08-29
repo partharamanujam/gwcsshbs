@@ -9,7 +9,7 @@ function menubarHelper(array, menu) {
             menu += ('<li role="menu">' + indent + '<button');
             if(array[idx].title) {
                 menu += (' title="' + array[idx].title + '"');
-            }            
+            }
             menu += ('>' + array[idx].name + '</button>' + indent);
             menu += ('<ul>\n' + menubarHelper(array[idx].submenu, indent) + indent + '</ul>' + indent);
         } else {
