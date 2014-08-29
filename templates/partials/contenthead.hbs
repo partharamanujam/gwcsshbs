@@ -2,12 +2,16 @@
         <div class="padded">
             <div class="row">
                 <div class="three fifths bounceInRight animated">
-                    <h1 class="zero museo-slab">Responsive Design Made Easy</h1>
-                    <p class="quicksand">GroundworkCSS on Handlebars; Created and Maintained by <a href="http://twitter.com/partharamanujam" target="_blank">Partha Ramanujam</a></p>
+                    <h1 class="zero museo-slab">{{content.top.title}}</h1>
+                    <p class="quicksand">{{{content.top.description}}}</p>
                 </div>
                 <div class="two fifths align-right-ipad align-right-desktop flipInX animated">
-                    <p class="quicksand">Get Started</p>
-                    <p><a href="/layout-a" rel="next" class="green button">View Example Layouts </a></p>
+                    <p class="quicksand">{{content.top.summary}}</p>
+                    <p>
+                    {{#each content.top.buttons}}
+                        <a href="{{href}}" rel="{{rel}}" class="{{class}}">{{text}}</a>
+                    {{/each}}
+                    </p>
                 </div>
             </div>
         </div>
