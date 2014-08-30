@@ -4,7 +4,7 @@ var path = require('path'),
     http = require('http'),
     express = require('express'),
     gwcsshbs = require('./lib'),
-    menuData = require('./menuData'),
+    data = require('./data'),
     gwcssResources = gwcsshbs.resources(express);
 
 var app = express(),
@@ -12,28 +12,16 @@ var app = express(),
     io = require('socket.io')(server),
     iosockets = [];
 
+var gwcsshbsSettings = {
+    autoPageRefresh: true
+};
+
 var viewList = {
     home: {
-        gwcsshbs: {
-            autoPageRefresh: true
-        },
+        gwcsshbs: gwcsshbsSettings,
         title: 'Home',
-        menu: menuData,
-        content: {
-            top: {
-                title: 'Responsive Design Made Easy',
-                description: 'GroundworkCSS on Handlebars; Created and Maintained by <a href="http://twitter.com/partharamanujam" target="_blank">Partha Ramanujam</a>',
-                summary: 'Get Started',
-                buttons: [
-                    {
-                        href: '/layout-a',
-                        rel: 'next',
-                        class: 'green button',
-                        text: 'View Example Layouts'
-                    }
-                ]
-            }
-        }
+        menu: data.menu,
+        content: data.home
     }
 };
 
@@ -63,6 +51,11 @@ gwcsshbs.init(
                         iosockets.splice(iosockets.indexOf(socket), 1);
                     }
                 );
+            }
+        );
+        io.on('reconnection',
+            function (socket) {
+                console.log('yessssssssssssssss');
             }
         );
         emitter.on('refresh',

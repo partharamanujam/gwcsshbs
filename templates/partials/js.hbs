@@ -6,7 +6,7 @@
     <script>
         var socket = io();
         socket.on('refresh', function () { window.location.reload(); });
-        socket.on('disconnect', function () { socket.close(); });
+        socket.on('reconnect', function () { window.location.reload(); });
     </script>
 {{/if}}
 {{/block}}
