@@ -17,11 +17,35 @@ var gwcsshbsSettings = {
 };
 
 var viewList = {
-    home: {
+    'home': {
         gwcsshbs: gwcsshbsSettings,
         title: 'Home',
         menu: data.menu,
         content: data.home
+    },
+    'layout-a': {
+        gwcsshbs: gwcsshbsSettings,
+        title: 'Website',
+        menu: data.menu,
+        content: data.a
+    },
+    'layout-b': {
+        gwcsshbs: gwcsshbsSettings,
+        title: 'Image Gallery',
+        menu: data.menu,
+        content: data.b
+    },
+    'layout-c': {
+        gwcsshbs: gwcsshbsSettings,
+        title: 'E-Commerce',
+        menu: data.menu,
+        content: data.c
+    },
+    'layout-d': {
+        gwcsshbs: gwcsshbsSettings,
+        title: 'Contact Us',
+        menu: data.menu,
+        content: data.d
     }
 };
 
