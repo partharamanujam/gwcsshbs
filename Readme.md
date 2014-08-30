@@ -1,6 +1,4 @@
-# INCOMPLETE - WORK IN PROGRESS
-
-  Groundwork CSS 2 Templates using Handlebars
+  Groundwork CSS 2 Web-Page Templates using Handlebars
 
 ```js
 var gwcsshbs = require('gwcsshbs');
