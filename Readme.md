@@ -64,11 +64,10 @@ $ npm install gwcsshbs
 
 ```js
 var viewList = {
-    home: {
+    'home': {
         gwcsshbs: { // settings
             autoPageRefresh: true // web-page auto refresh
-        },
-        title: 'Home Page'
+        }
     }
 };
 ```
@@ -81,6 +80,15 @@ var viewList = {
   an overview of the templates structure.
 
   ![Templates-Layout](layout.jpg)
+
+  There are other useful templates which are used as building blocks for the pages. Please
+  view the partials-folder in templates for other avaialble templates. 
+
+### GroundworkCSS & Documentation
+
+  The setup tries to replicate the web-page samples provided by GroundworkCSS. For easy reference,
+  the documentation is linked to locally hosted GroundworkCSS pages. If you are lost in the
+  documentation, and want to come back to prototyping, just click on the top-logo of any page.
 
 ### gwcsshbs.init(callback)
 

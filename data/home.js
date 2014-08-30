@@ -68,7 +68,7 @@ module.exports = {
                 boxcolor: 'asphalt',
                 shape: 'round',
                 href: '/layout-a',
-                src: 'http://groundworkcss.github.io/groundwork/images/layout-a.png',
+                src: '/images/layout-a.png',
                 textbg: 'turquoise',
                 text: 'Website Layout'
             },
@@ -77,7 +77,7 @@ module.exports = {
                 boxcolor: 'yellow',
                 shape: 'round',
                 href: '/layout-b',
-                src: 'http://groundworkcss.github.io/groundwork/images/layout-b.png',
+                src: '/images/layout-b.png',
                 textbg: 'orange',
                 text: 'Website Layout'
             },
@@ -86,7 +86,7 @@ module.exports = {
                 boxcolor: 'pink',
                 shape: 'round',
                 href: '/layout-c',
-                src: 'http://groundworkcss.github.io/groundwork/images/layout-c.png',
+                src: '/images/layout-c.png',
                 textbg: 'purple',
                 text: 'Ecommerce Site'
             },
@@ -95,7 +95,7 @@ module.exports = {
                 boxcolor: 'green',
                 shape: 'round',
                 href: '/layout-d',
-                src: 'http://groundworkcss.github.io/groundwork/images/example-usage.png',
+                src: '/images/example-usage.png',
                 textbg: 'asphalt',
                 text: 'Usage Examples'
             }

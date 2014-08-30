@@ -60,6 +60,9 @@ gwcsshbs.init(
         app.set('view engine', 'hbs');
         app.engine('hbs', gwcsshbs.renderFile);
         app.set('views', path.normalize(__dirname + '/templates/views'));
+        app.get('/', function (req, res) {
+            res.redirect('/home');
+        });
         Object.keys(viewList).forEach(
             function (view) {
                 app.get('/' + view, function (req, res) {
@@ -75,11 +78,6 @@ gwcsshbs.init(
                         iosockets.splice(iosockets.indexOf(socket), 1);
                     }
                 );
-            }
-        );
-        io.on('reconnection',
-            function (socket) {
-                console.log('yessssssssssssssss');
             }
         );
         emitter.on('refresh',

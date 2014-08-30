@@ -33,17 +33,17 @@ module.exports = [
             {
                 name: 'Grid',
                 title: 'Responsive grid system, grid adapters and helpers',
-                href: 'http://groundworkcss.github.io/groundwork/docs/grid.html'
+                href: '/docs/grid.html'
             },
             {
                 name: 'Helpers',
                 title: 'Layout helpers, spinners and much more',
-                href: 'http://groundworkcss.github.io/groundwork/docs/helpers.html'
+                href: '/docs/helpers.html'
             },
             {
                 name: 'Typography',
                 title: 'Text elements, quotes, code and web fonts',
-                href: 'http://groundworkcss.github.io/groundwork/docs/typography.html'
+                href: '/docs/typography.html'
             },
             {
                 name: 'UI Elements',
@@ -52,59 +52,59 @@ module.exports = [
                     {
                         name: 'Navigation',
                         title: 'Navigation',
-                        href: 'http://groundworkcss.github.io/groundwork/docs/navigation.html'
+                        href: '/docs/navigation.html'
                     },
                     {
                         name: 'Buttons',
                         title: 'Buttons, button groups, button menus',
-                        href: 'http://groundworkcss.github.io/groundwork/docs/buttons.html'
+                        href: '/docs/buttons.html'
                     },
                     {
                         name: 'Boxes',
                         title: 'Boxes',
-                        href: 'http://groundworkcss.github.io/groundwork/docs/boxes.html'
+                        href: '/docs/boxes.html'
                     },
                     {
                         name: 'Message Boxes',
                         title: 'Message Boxes',
-                        href: 'http://groundworkcss.github.io/groundwork/docs/messages.html'
+                        href: '/docs/messages.html'
                     },
                     {
                         name: 'Tables',
                         title: 'Tables',
-                        href: 'http://groundworkcss.github.io/groundwork/docs/tables.html'
+                        href: '/docs/tables.html'
                     },
                     {
                         name: 'Tabs',
                         title: 'Tabs',
-                        href: 'http://groundworkcss.github.io/groundwork/docs/tabs.html'
+                        href: '/docs/tabs.html'
                     },
                     {
                         name: 'Form Elements',
                         title: 'Form Elements',
-                        href: 'http://groundworkcss.github.io/groundwork/docs/forms.html'
+                        href: '/docs/forms.html'
                     }
                 ]
             },
             {
                 name: 'Icons',
                 title: 'Icons',
-                href: 'http://groundworkcss.github.io/groundwork/docs/icons.html'
+                href: '/docs/icons.html'
             },
             {
                 name: 'Responsive Text',
                 title: 'Responsive text and multi-line text block truncation',
-                href: 'http://groundworkcss.github.io/groundwork/docs/responsive-text.html'
+                href: '/docs/responsive-text.html'
             },
             {
                 name: 'Placeholder Text',
                 title: 'Placeholder text and placeholder fonts for rapid prototyping and wireframes',
-                href: 'http://groundworkcss.github.io/groundwork/docs/placeholder-text.html'
+                href: '/docs/placeholder-text.html'
             },
             {
                 name: 'Animations',
                 title: 'Pure CSS3 Animations',
-                href: 'http://groundworkcss.github.io/groundwork/docs/animations.html'
+                href: '/docs/animations.html'
             }
         ]
     }
