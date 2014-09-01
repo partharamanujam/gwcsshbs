@@ -80,7 +80,7 @@ var viewList = {
   ![Templates-Layout](layout.jpg)
 
   There are other useful templates which are used as building blocks for the pages. Please
-  view the partials-folder in templates for other avaialble templates. 
+  view the partials & helpers folder in templates. 
 
 ### GroundworkCSS & Documentation
 

@@ -19,5 +19,18 @@ module.exports = {
                 text: 'Image Gallery'
             }
         ]
+    },
+    body: {
+        unordered: [
+            'Unordered list item #1',
+            'Unordered list item #2',
+            'Unordered list item #3',
+            'Unordered list item #4'
+        ],
+        ordered: [
+            'Ordered list item #1',
+            'Ordered list item #2',
+            'Ordered list item #3'
+        ]
     }
 };
