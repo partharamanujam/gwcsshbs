@@ -1,8 +1,3 @@
-#### Important Note on XSS Vulnerability
-
-The version of Handlebars (v1.3.x) used within this module may be susceptable to XSS Vulnerability.
-
-
   Groundwork CSS 2 Web-Page Templates using Handlebars
 
 ```js
